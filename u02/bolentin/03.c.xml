@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Etiquetas en descorden -->
+<padre>
+    <hijo1>
+        <nombre>Juan<apellido>Pérez</apellido></nombre>
+    </hijo1>
+    <hijo2>
+        <nombre>Juan<apellido>Pérez</apellido></nombre>
+    </hijo2>
+</padre>

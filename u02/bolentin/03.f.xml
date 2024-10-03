@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- deporte/nombre fuera de deportista y etiqueta como atributo -->
+<deportistas>
+    <deportista>
+        <deporte>Altelismo</deporte>
+        <nombre>Jesse Owens</nombre>
+    </deportista>
+    <deportista>
+        <deporte>Natación</deporte>
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- No etiqueta raiz -->
+<!-- No existe etiqueta raiz -->
 <padre>
     <hijo1>
         <nombre>Juan</nombre>

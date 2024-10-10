@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+	<datos_personales>
+		<nombre></nombre>
+		<apellidos></apellidos>
+		<fecha></fecha>
+		<lugar_nac></lugar_nac>
+		<nacionalidades>
+			<nacionalidad></nacionalidad>
+		</nacionalidades>
+		<numero_id></numero_id>
+		<imagen></imagen>
+	</datos_personales>
+	<datos_contacto>
+		<direccion pais="" cod_postal="">
+			<nombre_via></nombre_via>
+			<tipo_via></tipo_via>
+			<num opcional="si"></num>
+			<portal opcional="si"></portal>
+			<escalera opcional="si"></escalera>	
+			<piso></piso>
+			<puerta opcional="si"></puerta>
+		</direccion>
+		<telefono tipo="movil"></telefono>
+		<telefono tipo="fijo" opcional="si"></telefono>
+		<red_social nombre="facebook"></red_social>
+		<red_social nombre="linkedIN"></red_social>
+		<red_social nombre="twitter"></red_social>
+	</datos_contacto>
+	<formacion>
+		<estudio>
+			<nombre></nombre>
+			<ciudad></ciudad>
+			<centro></centro>
+			<fecha_ini></fecha_ini>
+			<fecha_fin></fecha_fin>
+        </estudio>
+		<idioma materno="" >
+			<nombre></nombre>
+			<ex_oral nivel=""></ex_oral>
+			<ex_escrito nivel=""></ex_escrito>
+			<com_escrita nivel=""></com_escrita>
+			<com_oral nivel=""></com_oral>
+		</idioma>
+	</formacion>
+</curriculum>

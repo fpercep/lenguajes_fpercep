@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Ejemplo de DDT interno -->
+<!DOCTYPE pelicula [
+    <!ELEMENT pelicula (titulo)>
+    <!ELEMENT titulo (#PCDATA)>
+]>
+
+<pelicula>
+    <titulo></titulo>
+</pelicula>

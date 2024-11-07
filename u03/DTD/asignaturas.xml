@@ -18,13 +18,4 @@
 		<carrera>Ingenieria Informatica</carrera>
 		<curso>1º</curso>
 	</asignatura>
-	
-	<asignatura tipo="obligatoria">
-		<codigo>03</codigo>
-		<nom_asig>Seguridad</nom_asig>
-		<creditos>15</creditos>
-		<carrera>Ingenieria Informatica</carrera>
-		<carrera>Ingenieria Química</carrera>
-		<curso>2º</curso>
-	</asignatura>
 </asignaturas>

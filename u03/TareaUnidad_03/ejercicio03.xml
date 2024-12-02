@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE universidad [
+    <!ELEMENT universidad (alumnos, profesores)>
+
+    <!ELEMENT alumnos (alumno+)>
+    <!ELEMENT alumno (DNI*, pasaporte*, Nombre, PrimerApellido*, SegundoApellido*, apellido*, FechaNacimiento, direccion*, telefonos*, cuentas_correo*, asignaturas)>
+    <!ELEMENT DNI (#PCDATA)>
+    <!ELEMENT pasaporte (#PCDATA)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT PrimerApellido (#PCDATA)>
+    <!ELEMENT SegundoApellido (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT FechaNacimiento (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT telefonos (telefono+)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT cuentas_correo (cuenta_correo+)>
+    <!ELEMENT cuenta_correo (#PCDATA)>
+    <!ELEMENT asignaturas (asignatura+)>
+    <!ELEMENT asignatura (codigo, creditos, carrera, curso)>
+    <!ATTLIST asignatura tipo (NP | SS | AP | NT | SB | MH) #REQUIRED>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT creditos (#PCDATA)>
+    <!ELEMENT carrera (#PCDATA)>
+    <!ELEMENT curso (#PCDATA)>
+    <!ATTLIST curso tipo (optativa | obligatoria) #IMPLIED>
+    <!ATTLIST asignatura tipo CDATA #REQUIRED>
+    <!ATTLIST asignatura nota CDATA #REQUIRED>
+
+    <!ELEMENT profesores (profesor+)>
+    <!ELEMENT profesor (DNI*, pasaporte*, Nombre, PrimerApellido*, SegundoApellido*, apellido*, FechaNacimiento, direccion*, telefonos*, cuentas_correo*, despacho)>
+    <!ELEMENT despacho (#PCDATA)>
+
+]>
+<universidad>
+    <alumnos>
+        <alumno>
+            <DNI>12345678A</DNI>
+            <Nombre>Juan</Nombre>
+            <PrimerApellido>Pérez</PrimerApellido>
+            <SegundoApellido>Gómez</SegundoApellido>
+            <FechaNacimiento>1995-05-20</FechaNacimiento>
+            <direccion>Calle Mayor, 15, Madrid, España</direccion>
+            <telefonos>
+                <telefono>600123456</telefono>
+                <telefono>910123456</telefono>
+            </telefonos>
+            <cuentas_correo>
+                <cuenta_correo>juan.perez@universidad.es</cuenta_correo>
+                <cuenta_correo>jperez@gmail.com</cuenta_correo>
+            </cuentas_correo>
+            <asignaturas>
+                <asignatura tipo="NP" nota="10">
+                    <codigo>MATH101</codigo>
+                    <creditos>6</creditos>
+                    <carrera>Ingeniería</carrera>
+                    <curso>Primero</curso>
+                </asignatura>
+                <asignatura tipo="SS" nota="9">
+                    <codigo>MATH101</codigo>
+                    <creditos>6</creditos>
+                    <carrera>Ingeniería</carrera>
+                    <curso tipo="obligatoria">Primero</curso>
+                </asignatura>
+                <asignatura tipo="AP" nota="8">
+                    <codigo>MATH101</codigo>
+                    <creditos>6</creditos>
+                    <carrera>Ingeniería</carrera>
+                    <curso tipo="optativa">Primero</curso>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+        <alumno>
+            <pasaporte>Y1234567</pasaporte>
+            <Nombre>Maria</Nombre>
+            <apellido>López</apellido>
+            <FechaNacimiento>1996-03-12</FechaNacimiento>
+            <asignaturas>
+                <asignatura tipo="NT" nota="10">
+                    <codigo>MATH101</codigo>
+                    <creditos>6</creditos>
+                    <carrera>Ingeniería</carrera>
+                    <curso>Primero</curso>
+                </asignatura>
+                <asignatura tipo="SB" nota="9">
+                    <codigo>COMP201</codigo>
+                    <creditos>4</creditos>
+                    <carrera>Ingeniería</carrera>
+                    <curso tipo="optativa">Segundo</curso>
+                </asignatura>
+                <asignatura tipo="MH" nota="10">
+                    <codigo>PHYS301</codigo>
+                    <creditos>5</creditos>
+                    <carrera>Ingeniería</carrera>
+                    <curso tipo="obligatoria">Tercero</curso>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+    </alumnos>
+    <profesores>
+        <profesor>
+            <DNI>87654321B</DNI>
+            <Nombre>Ana</Nombre>
+            <PrimerApellido>Martínez</PrimerApellido>
+            <SegundoApellido>Ruiz</SegundoApellido>
+            <FechaNacimiento>1975-08-15</FechaNacimiento>
+            <direccion>Calle Gran Vía, 22, Barcelona, España</direccion>
+            <telefonos>
+                <telefono>650987654</telefono>
+            </telefonos>
+            <cuentas_correo>
+                <cuenta_correo>ana.martinez@universidad.es</cuenta_correo>
+            </cuentas_correo>
+            <despacho>Edificio A, Despacho 201</despacho>
+        </profesor>
+        <profesor>
+            <pasaporte>Z9876543</pasaporte>
+            <Nombre>Roberto</Nombre>
+            <apellido>García</apellido>
+            <FechaNacimiento>1980-11-22</FechaNacimiento>
+            <despacho>Edificio B, Despacho 105</despacho>
+        </profesor>
+    </profesores>
+</universidad>

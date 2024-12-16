@@ -1,0 +1,10 @@
+
+body{
+    background-color: rgb(207, 207, 207);
+    color:brown;
+}
+hr {
+    color: brown;
+    width: 20%;
+    size:  4px;
+}

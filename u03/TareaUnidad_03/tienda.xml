@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="./tienda.xsd">
+    <nombre_tienda num="333-hol-AAA-1234">Mi Tienda</nombre_tienda>
+    <cantidad>10</cantidad>
+    <!-- moneda solo EU o DOL -->
+    <moneda>EU</moneda>
+    <dni>12345678A</dni>
+    <telefono>612345678</telefono>
+</tienda>

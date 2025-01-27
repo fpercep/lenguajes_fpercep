@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(206, 203, 203);
+}
+h1 {
+    padding: 5px;
+    padding-bottom: 20px;
+}
+h2{
+    padding: 5px;
+}
+ul {
+    display: flex;
+}
+ul#lista1 {
+    flex-direction: row;
+    margin-left: 30px;
+}
+#lista1 ol {
+    background-color: rgb(3, 201, 13);
+    border: 2px dashed rgb(159, 12, 204) ;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+ul#lista2 {
+    flex-direction: row;
+    margin-left: 50%;
+}
+
+#lista2 ol {
+    padding: 5px;
+    margin: 5px;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    background-color: white;
+}

@@ -1,0 +1,5 @@
+body {background-color: white; font-size: 10px; text-align: center;}
+p#estilo {text-align: left; font-size: 11px; color: blue;}
+p#estilo1 {text-align: left; font-size: 15px; color: white;background-color: black;}
+h3.clase1 {text-align: left; font-style: italic; border-bottom: 1px dashed grey;}
+h1 {text-align: left; padding-top: 1em; color: red;}

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{background-color: rgb(39, 88, 39);
+    color: white;
+}
+h1 {
+    text-shadow: 2px 2px 4px black;
+}
+p{
+    width: 50%;
+    margin: 15px;
+}
+p.estilo {
+    border: 5px solid black ;
+    border-radius: 16px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    margin: auto;
+}
+p.estilo1 {
+    border: 10px solid rgb(110, 29, 29);
+    background-color: rgb(204, 83, 53);
+    padding: 10px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+p.estilo2 {
+    border: 8px solid rgb(97, 64, 27);
+    background-color: rgb(226, 152, 68);
+    padding: 5px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-left: 50%;
+
+}
+p.estilo3 {
+    border: 3px dotted rgb(88, 143, 165);
+    background-color: rgb(43, 43, 143);
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+}

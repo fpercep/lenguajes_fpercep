@@ -40,3 +40,43 @@ ul#lista2 {
     border-bottom: 0.5px solid black;
     background-color: white;
 }
+ul#lista3{
+    flex-direction: column;
+    border: 1px solid black;
+    width: 180px;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+
+#lista3 ol {
+    background-color: white;
+    border: 2px solid black ;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+}
+
+ul#lista4 {
+    flex-direction: row;
+    margin-left: 40%;
+}
+
+#lista4 ol {
+    width: 150px;
+    padding: 5px;
+    margin: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#lista4 .impar{
+    background-color: white;
+    color: rgb(74, 74, 214);
+}
+#lista4 .par{
+    color: white;
+    background-color: rgb(74, 74, 214);
+}

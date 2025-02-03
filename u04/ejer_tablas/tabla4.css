@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h2{
+  padding: 10px;
+}
+body {
+  background-color: skyblue;
+}
+div {
+  padding: 10px;
+  background-color: rgb(251, 245, 203);
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border: 1px solid rgb(81, 81, 81);
+}
+table {
+  background-color: rgb(251, 245, 203);
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+}
+
+.dias td,
+#semana th {
+  border: 1px solid rgb(81, 81, 81);
+}
+.dias td {
+  width: 50px;
+  height: 25px;
+  padding-bottom: 25px;
+}
+caption {
+  text-align: left;
+  padding: 5px;
+}

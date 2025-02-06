@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+header {
+    background-color: white;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+div.pizza{
+    margin: 10px;
+}
+div.pizza p{
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    background-color: black;
+ }
+footer{
+    border: white solid 20px;
+    border-top: white solid 0px;;
+    background-color: grey;
+    margin: 20px;
+    margin-top: 0;
+}

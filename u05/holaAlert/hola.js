@@ -1,0 +1,4 @@
+function AlertaSaludo() {
+    alert("Hola");
+
+}

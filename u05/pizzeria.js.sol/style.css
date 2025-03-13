@@ -36,14 +36,12 @@ img.pizza {
     padding: 5px;
 }
 
-
 main.grid-pizzas {
     width: 80%;
     margin: auto;
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
     @media (max-width:1200px) {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -59,4 +57,9 @@ main.grid-pizzas {
 
 main div {
     text-align: center;
+    
+}
+
+.pizza_pedido{
+    display: flex ;
 }

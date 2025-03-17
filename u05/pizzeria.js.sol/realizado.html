@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería Trafalgar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="pedidos.js"></script>
+    <style>
+        footer {
+            background-color: #ccc;
+            color: blueviolet;
+            padding: 20px;
+            text-align: right;
+            font-family: Arial, sans-serif;
+            font-weight: bolder;
+        }
+
+        footer a {
+            color: #0f1775;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        label, input, select, textarea, button {
+            margin-bottom: 10px;
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkviolet;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo pizzería">
+        </a>
+        <h1>Pizzería Trafalgar</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <a href="#"><li>PRINCIPAL</li></a>
+            <a href="#"><li>CARTA</li></a>
+            <a href="./pedidos.html"><li>PEDIDOS</li></a>
+        </ul>
+    </nav>
+
+    <main class="grid-container">
+        <h1>PEDIDO REALIZADO</h1>
+    </main>
+
+    <footer>
+        <p>
+            <i class="fas fa-map-marker-alt icon"></i>
+            Dirección: Calle Madrid 4, Trafalgar
+        </p>
+        <p>
+            <i class="fas fa-phone-square"></i>
+            Teléfono: <a href="tel:668865990">668 865 990</a>
+        </p>
+        <p>¡Haz tu pedido a domicilio y disfruta de la mejor pizza!</p>
+    </footer>
+
+</body>
+
+</html>

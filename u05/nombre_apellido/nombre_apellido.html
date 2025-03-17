@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Nombre y Apellido</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='nombre_apellido.js'></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th,td {
+            border: 1px solid black ;
+        }
+        th{
+            background-color: aquamarine;
+        }
+        #error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Lista Personas Registradas</h2>
+    <table id="tabla">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr>
+        <tr>
+            <td id="tablaVacia" colspan="2"> No existen personas </td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Añadir persona</h3>
+    <form id="personForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" onfocus="limpiaError()">
+        <label for="apellidos">Apellido:</label>
+        <input type="text" id="apellidos" onfocus="limpiaError()">
+        <button type="button" onclick="anadirAlumno()">Añadir persona</button>
+        <input id="reset" type="reset" value="Reset">
+    </form>
+    <p id="error"></p>
+</body>
+</html>

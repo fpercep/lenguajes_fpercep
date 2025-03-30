@@ -1,0 +1,73 @@
+body, main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+
+main{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+.letrainput{
+    width: 50px;
+    margin: 3px;
+    margin-bottom: 15px;
+}
+/* .error-message{
+    width: 250px;
+    margin: 3px;
+    margin-bottom: 15px;
+    color: #c62828;
+    background-color: #ffebee;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ef5350;
+    padding: 5px;
+} */
+#game,  #stats{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+}
+
+#stats{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+
+.correcto {
+    border-color: greenyellow;
+    border-radius: 7%;
+}
+
+.fallo {
+    border-color: red;
+    border-radius: 7%;
+}
+
+.comenzar{
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.comprobar{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(186, 188, 18);
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 3px;
+}

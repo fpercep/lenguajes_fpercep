@@ -1,0 +1,20 @@
+1. Titulo de las películas con review=”5”
+    //movie[@review="5"]/title
+2. Titulo de las películas con review=”5” y del año 1992 (necesario operador and)
+3. Películas cuyo año sea par (necesario operador mod)
+4. Segunda película
+5. Películas en las que ha intervenido el actor Nicolas Cage (text()=‘Nicolas Cage’)
+6. Título de las películas en las que ha intervenido el actor Nicolas Cage
+7. Actores que han trabajado con el actor Nicolas Cage en alguna película, incluido el propio Nicolas Cage
+8. Actores que han trabajado con el actor Nicolas Cage en alguna película, excluido el propio Nicolas Cage
+9. Productores que han producido películas del anio 1992
+10. Título de las películas comedia interpretadas por Nicolas Cage (operador and)
+11. Películas con tres o más actores (función count())
+12. Titulo de las películas con tres actores
+13. Titulo de las películas que tienen un productor apellidado Wood (función contains())
+14. Última película (función last())
+15. Todas las películas excepto la ultima (funciones not(), position() y last())
+16. Todos los elementos que contengan el atributo year
+17. Todas las películas que no contengan subelemento comments (función not()))
+18. Todos los nodos actor o director. (uso de | )
+19. Titulo de las películas donde participe algún miembro de la familia Coen (uso de función contains())

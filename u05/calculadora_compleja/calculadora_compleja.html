@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculadora simple</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="calculadora_compleja.css"
+    />
+    <script src="calculadora_compleja.js"></script>
+  </head>
+  <body>
+    <div>
+      <h2>Calculador NO simple</h2>
+      <input type="text" id="operacion" readonly />
+      <input type="text" id="resultado" readonly />
+      <hr />
+      <div>
+        <button onclick="addOperator('+')">+</button>
+        <button onclick="addOperator('-')">-</button>
+        <button onclick="addOperator('X')">X</button>
+        <button onclick="addOperator('/')">/</button>
+      </div>
+      <hr />
+      <div>
+        <button onclick="addOperator('0')">0</button>
+        <button onclick="addOperator('1')">1</button>
+        <button onclick="addOperator('2')">2</button>
+        <button onclick="addOperator('3')">3</button>
+        <button onclick="addOperator('4')">4</button>
+        <button onclick="addOperator('5')">5</button>
+        <button onclick="addOperator('6')">6</button>
+        <button onclick="addOperator('7')">7</button>
+        <button onclick="addOperator('8')">8</button>
+        <button onclick="addOperator('9')">9</button>
+      </div>
+    </div>
+  </body>
+</html>
